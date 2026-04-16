@@ -1,0 +1,24 @@
+{
+  "name": "@repo/ui-shared",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./*": "./src/*.tsx"
+  },
+  "scripts": {
+    "dev": "tsc --watch --noEmit",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint . --max-warnings 0"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.39.1",
+    "typescript": "5.9.2"
+  },
+  "dependencies": {
+    "react": "^19.0.0"
+  }
+}
