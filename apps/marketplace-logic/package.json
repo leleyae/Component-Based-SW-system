@@ -1,0 +1,10 @@
+{
+  "name": "marketplace-logic",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "uvicorn main:app --reload --port 8001",
+    "start": "uvicorn main:app --port 8001",
+    "lint": "echo 'No JS lint for Python service'"
+  }
+}
